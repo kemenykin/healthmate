@@ -4,7 +4,8 @@ import Disclaimer from './components/Disclaimer';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import BmiCalc from './pages/BmiCalc';
-import EnergyCalc from './pages/EnergyCalc';
+import DailyReqs from './pages/DailyReqs';
+import Patients from './pages/Patients';
 
 
 const router = createBrowserRouter([
@@ -14,19 +15,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home /> 
+        element: <Home />
       },
       {
         path: '/bmi',
-        element: <BmiCalc /> 
+        element: <BmiCalc />
       },
       {
-        path: '/energy',
-        element: <EnergyCalc/> 
+        path: '/daily',
+        element: <DailyReqs />
+      },
+      {
+        path: '/patients',
+        element: <Patients />
       },
       {
         path: '/disclaimer',
-        element: <Disclaimer /> 
+        element: <Disclaimer />
       }
     ]
   }

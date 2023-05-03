@@ -1,13 +1,14 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "./Navigation";
+import '../styles/layout.css';
 
 const Layout = () => {
     return (
-        <div>
-        <h2>HealthMate - simplify your clinical work</h2>
+        <div className="main-container">
+        <img src="https://imagizer.imageshack.com/v2/1251x207q90/922/BGGqUV.png" width="1000px" alt=""/>
         <Navigation />
-        <Outlet />
 
+        <Outlet />
         </div>
     )
 }

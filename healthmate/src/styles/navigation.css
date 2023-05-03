@@ -1,0 +1,12 @@
+.navbar {
+    margin-left: 25px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar > * {
+    text-decoration: none;
+}

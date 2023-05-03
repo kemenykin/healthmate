@@ -7,9 +7,9 @@ const BmiCalc = () => {
                 <p>This is where you can calculate BMI.</p>
             </div>
             <form>
-                <label for="weight">Weight</label>
+                <label htmlFor="weight">Weight</label>
                 <input type="text" id="weight" name="weight" placeholder="in kilogramms" />
-                <label for="height">Height</label>
+                <label htmlFor="height">Height</label>
                 <input type="text" id="height" name="height" placeholder="in metres" />
             </form>
             <div className="display-bmi">

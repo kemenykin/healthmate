@@ -1,13 +1,29 @@
 import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Index from './components/Index';
 import Disclaimer from './components/Disclaimer';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import BmiCalc from './pages/BmiCalc';
+import EnergyCalc from './pages/EnergyCalc';
+
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Index />,
+    element: <Layout />,
     children: [
+      {
+        path: '/',
+        element: <Home /> 
+      },
+      {
+        path: '/bmi',
+        element: <BmiCalc /> 
+      },
+      {
+        path: '/energy',
+        element: <EnergyCalc/> 
+      },
       {
         path: '/disclaimer',
         element: <Disclaimer /> 

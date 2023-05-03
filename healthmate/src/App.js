@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import BmiCalc from './pages/BmiCalc';
 import DailyReqs from './pages/DailyReqs';
 import Patients from './pages/Patients';
-
+import { useState } from 'react';
+import { ThemeContext } from './contexts/ThemeContext';
 
 const router = createBrowserRouter([
   {
@@ -38,10 +39,14 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-  return (
-    <RouterProvider router={router}>
 
-    </RouterProvider>
+  const [theme, setTheme] = useState('light');
+
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+        <RouterProvider router={router}>
+        </RouterProvider>
+    </ThemeContext.Provider>
   );
 }
 

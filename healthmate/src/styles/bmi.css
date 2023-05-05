@@ -5,3 +5,8 @@ text-align: center;
 .bmi-table {
     text-align: center;
 }
+
+.calculated-bmi {
+    color: red;
+    font-weight: 700;
+}

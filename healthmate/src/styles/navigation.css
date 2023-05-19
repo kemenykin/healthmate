@@ -1,12 +1,25 @@
-.navbar {
-    margin-left: 25px;
+.header-container {
+    line-height: 1.5;
+    font-family: sans-serif;
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    gap: 1rem;
+
+    background-color: #b7baaa;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
 }
 
 .navbar > * {
     text-decoration: none;
+    color: #524f4a ;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1em;
 }

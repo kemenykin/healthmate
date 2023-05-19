@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 60vh;
+    background-image: url("https://img.freepik.com/free-photo/diet-concept-with-female-scientist-healthy-food_23-2148193263.jpg?w=1380&t=st=1684481858~exp=1684482458~hmac=0459ab9506076db33758dff5574b66228a7c15a926b96e228083c26de4cf2d4e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

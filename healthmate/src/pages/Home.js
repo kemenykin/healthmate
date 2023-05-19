@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
+import Header from "../components/Header";
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ function handleChange(e) {
     return (
         <div>
             <div>
+                <Header />
                 <h3>Home</h3>
                 <p>Welcome to our app! </p>
                 <p>...a friendly tool for clinical dietitians.</p>

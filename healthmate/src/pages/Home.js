@@ -1,21 +1,23 @@
 import { useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
 import Header from "../components/Header";
+import '../styles/home.css';
 
 const Home = () => {
 
-const {theme, setTheme} = useContext(ThemeContext);
+    const { theme, setTheme } = useContext(ThemeContext);
 
-function handleChange(e) {
-    setTheme(e.target.value);
-}
+    function handleChange(e) {
+        setTheme(e.target.value);
+    }
 
 
     return (
         <div>
             <div>
                 <Header />
-                <h3>Home</h3>
+            </div>
+            <div className="home-intro">
                 <p>Welcome to our app! </p>
                 <p>...a friendly tool for clinical dietitians.</p>
             </div>

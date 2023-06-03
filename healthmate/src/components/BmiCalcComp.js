@@ -20,6 +20,12 @@ const BmiCalcComp = () => {
 
     const calculate = (e) => {
         e.preventDefault();
+        
+        if (height === "" || weight === "") {
+            toast.error("Input fields cannot be empty!", {
+                position: toast.POSITION.TOP_CENTER
+            });
+        }
         if (isNaN(weight) || isNaN(height)) {
             toast.error("Inputs have to be numbers!", {
                 position: toast.POSITION.TOP_CENTER
@@ -27,8 +33,6 @@ const BmiCalcComp = () => {
         } else {
             setBmi(calculateBmi(weight, height))
         }
-
-        console.log("calculate");
     }
 
     return (

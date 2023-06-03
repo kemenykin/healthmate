@@ -4,11 +4,12 @@
 .header-container {
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 1rem;
 
-    background-color: #b7baaa;
+    background-color: #ffffff;
     padding: 1rem;
 }
 

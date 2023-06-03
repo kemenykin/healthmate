@@ -12,10 +12,12 @@ const Navigation = () => {
                 <Link to='/patients'> Patients</Link>
                 <Link to='/disclaimer'> Disclaimer</Link>
             </div>
-            <div className="nav-icons">
+            <div className="logo-img">
+            </div>
+            {/* <div className="nav-icons">
                 <Link to="#"><FaUserAlt /></Link>
                 <Link to="#"><FaHeart /></Link>
-            </div>
+            </div> */}
         </div>
     )
 }

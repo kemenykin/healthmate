@@ -8,6 +8,8 @@ import DailyReqs from './pages/DailyReqs';
 import Patients from './pages/Patients';
 import { useState } from 'react';
 import { ThemeContext } from './contexts/ThemeContext';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const router = createBrowserRouter([
   {
@@ -44,8 +46,9 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-        <RouterProvider router={router}>
-        </RouterProvider>
+      <RouterProvider router={router}>
+      </RouterProvider>
+      <ToastContainer />
     </ThemeContext.Provider>
   );
 }

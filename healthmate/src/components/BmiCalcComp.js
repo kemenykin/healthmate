@@ -1,6 +1,8 @@
 import '../styles/bmi.css';
 import calculateBmi from '../services/bmi-service';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const BmiCalcComp = () => {
 
@@ -19,7 +21,9 @@ const BmiCalcComp = () => {
     const calculate = (e) => {
         e.preventDefault();
         if (isNaN(weight) || isNaN(height)) {
-            alert("Inputs have to be numbers!")
+            toast.error("Inputs have to be numbers!", {
+                position: toast.POSITION.TOP_CENTER
+            });
         } else {
             setBmi(calculateBmi(weight, height))
         }

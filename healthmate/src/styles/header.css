@@ -7,9 +7,10 @@
 header {
     width: 100vw;
     height: 75vh;
-    background-image: url("https://imagizer.imageshack.com/img923/6269/uiv23o.jpg");
-    background-position: center;
+    background-image: url("https://imagizer.imageshack.com/img923/3546/PlXMW7.jpg");
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: #f7f5f6;
     position: relative;
 }

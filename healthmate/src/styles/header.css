@@ -6,12 +6,12 @@
 
 header {
     width: 100vw;
-    height: 75vh;
-    background-image: url("https://imagizer.imageshack.com/img923/3546/PlXMW7.jpg");
+    height: 50vh;
+    background-image: url("https://imagizer.imageshack.com/img922/5854/DovYOm.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #ffffff;
     position: relative;
-    border-bottom: 1px solid #A19582;;
+    border-bottom: 1px solid #A19582;
 }

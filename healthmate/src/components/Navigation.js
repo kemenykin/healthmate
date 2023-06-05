@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <div className="header-container">
             <div className="logo-img" >
-                <Link to="/"><img src="https://imagizer.imageshack.com/img924/7773/ZwosXg.png" alt="" style={{ height: "30px" }} /></Link>
+                <Link to="/"><img src="https://imagizer.imageshack.com/img924/7773/ZwosXg.png" alt="" style={{ height: "50px" }} /></Link>
             </div>
             <div className="navbar">
                 {/* <Link to='/'>Home</Link> */}

@@ -45,3 +45,8 @@
     border: none;
     cursor: pointer;
   }
+
+  .warning-bmr {
+    width: 480px;
+    padding: 20px;
+  }

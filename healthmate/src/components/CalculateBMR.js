@@ -56,6 +56,9 @@ const CalculateBMR = () => {
                 <h4>Your patient's BMR is: </h4>
                 <p className="calculated-bmi">{bmr} kcal</p>
             </div>
+            <div className="warning-bmr">
+            Analysis has revealed that fixed factors for estimating the total energy expenditure, like 25 or 30 kcal/kg, are not suitable. They lead to poor estimates of patients with low or high body weights.
+            </div>
         </div>
     )
 }

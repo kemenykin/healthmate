@@ -11,7 +11,6 @@ const Home = () => {
         setTheme(e.target.value);
     }
 
-
     return (
         <div>
             <header>

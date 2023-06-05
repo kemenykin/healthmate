@@ -9,7 +9,7 @@ const Navigation = () => {
                 <Link to="/"><img src="https://imagizer.imageshack.com/img924/7773/ZwosXg.png" alt="" style={{ height: "30px" }} /></Link>
             </div>
             <div className="navbar">
-                <Link to='/'>Home</Link>
+                {/* <Link to='/'>Home</Link> */}
                 <Link to='/bmi'> BMI calculator</Link>
                 <Link to='/daily'> Daily requirements</Link>
                 <Link to='/patients'> Patients</Link>

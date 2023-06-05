@@ -9,6 +9,7 @@ const DailyReqs = () => {
                     <p>with the Harris & Benedict equation (1918)</p>
                     <br />
                     <CalculateBMR />
+                    <br />
                 </div>
             </div>
     )

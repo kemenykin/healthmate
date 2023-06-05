@@ -1,4 +1,5 @@
 import { useState } from "react";
+import bmrService from "../services/bmrService";
 
 const CalculateBMR = () => {
 
@@ -24,7 +25,14 @@ const CalculateBMR = () => {
         setWeight(e.target.value);
     }
 
-console.log(age);
+    function calculateBmr(e) {
+        e.preventDefault();
+        if (gender === "female") {
+            setBmr(bmrService.bmrForWomen(weight, height, age));
+        } else {
+            setBmr(bmrService.bmrForMen(weight, height, age));
+        }
+    }
 
     return (
         <div className="bmr-wrap">
@@ -34,19 +42,19 @@ console.log(age);
                     <option value="female">Female</option>
                     <option value="male">Male</option>
                 </select>
-                <form>
+                <form onSubmit={calculateBmr}>
                     <label htmlFor="weight">Age</label>
                     <input type="text" onChange={handleAgeChange} id="age" name="age" />
                     <label htmlFor="weight">Weight</label>
                     <input type="text" onChange={handleWeightChange} id="weight" name="weight" placeholder="in kilogramms" />
                     <label htmlFor="height">Height</label>
-                    <input type="text" onChange={handleHeightChange} id="height" name="height" placeholder="in metres" />
+                    <input type="text" onChange={handleHeightChange} id="height" name="height" placeholder="in centimetres" />
                     <button type='submit'>Calculate</button>
                 </form>
             </div>
             <div className="display-bmi">
                 <h4>Your patient's BMR is: </h4>
-                <p className="calculated-bmi">BMR</p>
+                <p className="calculated-bmi">{bmr} kcal</p>
             </div>
         </div>
     )

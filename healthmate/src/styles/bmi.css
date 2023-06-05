@@ -5,8 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.intro-text {
-    margin: 3rem 10rem;
+.bmi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
 }
 
 body {

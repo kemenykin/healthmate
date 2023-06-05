@@ -14,20 +14,28 @@ const Home = () => {
 
     return (
         <div>
-            <div>
+            <header>
                 <Header />
-            </div>
-            <div className="home-intro">
-                <p>Welcome to our app! </p>
-                <p>...a friendly tool for clinical dietitians.</p>
-            </div>
-            <div>
-                <h4>Select mode: </h4>
-                <select name="theme" onChange={handleChange}>
-                    <option value="light">light</option>
-                    <option value="dark">dark</option>
-                </select>
-            </div>
+            </header>
+            <body>
+                <div className="home-intro">
+                    <img src="https://images.pexels.com/photos/8844386/pexels-photo-8844386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                    <div className="intro-text">
+                        <h2>Welcome to our app! </h2>
+                        <p>Can you imagine that you can spend more useful time with educating your patients instead of the unnecessary calculations and stress?</p>
+                        <p>We brought the solution: everything you need. In one place. In your pocket.</p>
+                        <h3>This is HealthMate.</h3>
+                        <p>...a friendly tool for clinical dietitians.</p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Select mode: </h4>
+                    <select name="theme" onChange={handleChange}>
+                        <option value="light">light</option>
+                        <option value="dark">dark</option>
+                    </select>
+                </div>
+            </body>
         </div>
     )
 }

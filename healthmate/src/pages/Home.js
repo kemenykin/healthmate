@@ -14,9 +14,9 @@ const Home = () => {
 
     return (
         <div>
-            <div>
+            <header>
                 <Header />
-            </div>
+            </header>
             <div className="home-intro">
                 <p>Welcome to our app! </p>
                 <p>...a friendly tool for clinical dietitians.</p>

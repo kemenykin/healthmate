@@ -7,6 +7,7 @@ const DailyReqs = () => {
                 <p>You can make several metabolism calculations here.</p>
                 <div>
                     <h3>1. Calculate BMR</h3>
+                    <p>with the Harris & Benedict equation (1918)</p>
                     <CalculateBMR />
                 </div>
             </div>

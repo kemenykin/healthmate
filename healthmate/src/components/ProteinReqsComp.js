@@ -1,13 +1,18 @@
 import { useState } from 'react';
 import '../styles/proteinreqs.css';
 import proteinReqsService from '../services/proteinReqsService';
+import { useEffect } from 'react';
 
 const ProteinReqsComp = () => {
 
-    const [proteinAmount, setProteinAmount] = useState(0);
-    const [group, setGroup] = useState('');
+    const [proteinAmount, setProteinAmount] = useState(0.8);
+    const [group, setGroup] = useState("healthy-adults");
     const [weight, setWeight] = useState('');
     const [calculatedProtein, setCalculatedProtein] = useState(0);
+
+    useEffect(() => {
+        setCalculatedProtein(proteinReqsService.calcProteinNeed(weight, proteinAmount));
+    }, [proteinAmount, weight]);
 
     function handleGroupChange(e) {
         const selectedGroup = e.target.value;
@@ -21,8 +26,6 @@ const ProteinReqsComp = () => {
             setProteinAmount(1.4);
         }
     }
-
-    console.log(proteinAmount);
 
     function handleWeightChange(e) {
         setWeight(e.target.value);
@@ -43,7 +46,7 @@ const ProteinReqsComp = () => {
         <div className="proteinreqs-wrap">
             <div className="proteinreqs-calculator">
                 <p className='select-field'>Select group: </p>
-                <select name="group" onChange={handleGroupChange} value={group}>
+                <select name="group" onChange={handleGroupChange}>
                     <option value="healthy-adults">Healthy adults (18-64 years)</option>
                     <option value="healthy-elderly">Healthy elderly (&gt; 65 years)</option>
                     <option value="ill-adults">Acutely & chronically ill adults</option>

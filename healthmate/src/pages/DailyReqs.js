@@ -12,7 +12,7 @@ const DailyReqs = () => {
                 <CalculateBMR />
                 <br />
             </div>
-            <div className='proteinreqs-container'>
+            <div className='proteincalc-container'>
                 <h3>2. Protein requirements</h3>
                 <p>in different age and patient groups</p>
                 <br />

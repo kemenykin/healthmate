@@ -38,8 +38,6 @@ const ProteinReqsComp = () => {
 
     function calculateProteinNeeds() {
         setCalculatedProtein(proteinReqsService.calcProteinNeed(weight, proteinAmount))
-
-        console.log(calculatedProtein);
     }
 
     return (

@@ -1,6 +1,7 @@
 import '../styles/dailyreqs.css';
 import CalculateBMR from "../components/CalculateBMR";
 import ProteinReqsComp from '../components/ProteinReqsComp';
+import FluidReqs from '../components/FluidReqs';
 
 const DailyReqs = () => {
     return (
@@ -17,6 +18,12 @@ const DailyReqs = () => {
                 <p>in different age and patient groups</p>
                 <br />
                 <ProteinReqsComp />
+            </div>
+            <div className='fluidreqs-container'>
+                <h3>3. Fluid requirements</h3>
+                <p>can be estimated: </p>
+                <br />
+                <FluidReqs />
             </div>
         </div>
     )

@@ -5,22 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.bmi-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
-    margin: 0 auto;
-    width: 50rem;
-}
-
-body {
-    align-items: center;
-    justify-content: center;
-}
-
-.bmi-calculator {
+.proteinreqs-calculator {
     background-color: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -28,56 +13,35 @@ body {
     width: 400px;
     margin: 0 auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .bmi-calculator form {
+}
+
+.proteinreqs-calculator form {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-  }
-  
-  .bmi-calculator label {
+}
+
+.proteinreqs-calculator label {
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  
-  .bmi-calculator input {
+}
+
+.proteinreqs-calculator input {
     padding: 5px;
     margin-bottom: 10px;
-  }
-  
-  .bmi-calculator button {
+}
+
+.proteinreqs-calculator button {
     padding: 10px 20px;
     background-color: #C09984;
     color: white;
     border: none;
     cursor: pointer;
-  }
-  
-  .display-bmi {
-    margin-bottom: 20px;
-  }
-  
-  .display-bmi h4 {
-    margin-bottom: 5px;
-  }
-  
-  .display-bmi .calculated-bmi {
-    font-weight: bold;
-  }
-  
-  .bmi-table {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .bmi-table img {
-    max-width: 100%;
-  }
+}
 
-  /* BMI INDEX MEGJELENÍTÉSE */
-  
-  .display-bmi {
-    margin-top: 20px;
+.display-proteinreq {
+    margin-bottom: 20px;
+    margin-top: 1.25rem;
     padding: 10px;
     background-color: #f5f5f5;
     border: 1px solid #ddd;
@@ -86,19 +50,22 @@ body {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .display-bmi h4 {
+}
+
+.display-proteinreq h4 {
+    margin-bottom: 5px;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  
-  .display-bmi .calculated-bmi {
+}
+
+.display-proteinreq .calculated-protein {
+    font-weight: bold;
     font-weight: bold;
     font-size: 24px;
     color: #A6A998;
-  }
+}
 
-  .warning-bmi, .classification-bmi {
+.proteinreqs-wrap p {
     width: 30rem;
-  }
+    margin-top: 2.1rem;
+}

@@ -48,9 +48,9 @@ const BmiCalcComp = () => {
                 </div>
                 <div className="display-bmi">
                     <h4>Your patient's Body Mass Index is: </h4>
-                    <p className="calculated-bmi">{bmi}</p>
+                    <p className="calculated-bmi">{bmi} kg/m2</p>
                 </div>
-                <div>
+                <div className='classification-bmi'>
                     <p>Weight and height are used to calculate the BMI, which is used to classify subject as underweight, normal weight, overweight or obese.</p>
                     <p>The table below provides the WHO cutoff points for adults.</p>
                 </div>

@@ -25,11 +25,11 @@ const FluidReqs = () => {
     return (
         <div className="proteinreqs-wrap">
             <div className="proteinreqs-calculator">
-                <p className='select-field'>Select group: </p>
+                {/* <p className='select-field'>Select group: </p>
                 <select name="group">
                     <option value="adults">Adults (18-64 years)</option>
                     <option value="older-adults">Adults (&gt; 60 years)</option>
-                </select>
+                </select> */}
                 <div className="protein-calculator">
                     <form onSubmit={calculateFluidNeed}>
                         <label htmlFor="weight">Weight</label>
@@ -40,7 +40,7 @@ const FluidReqs = () => {
             </div>
             <div className='display-proteinreq'>
                 <h4>Your patient's estimated fluid need is: </h4>
-                <p className="calculated-protein">{estimatedFluid} ml</p>
+                <p className="calculated-protein">{estimatedFluid} ml/day</p>
             </div>
         </div>
     )

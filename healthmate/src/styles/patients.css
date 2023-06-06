@@ -1,0 +1,13 @@
+.patients-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.intro-patients {
+    width: 30rem;
+}

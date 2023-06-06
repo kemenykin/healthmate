@@ -7,4 +7,6 @@
     justify-content: center;
     align-items: center;
     border-top: 1px solid #A19582;
+    flex-shrink: 0;
+    width: 100vw;
 }

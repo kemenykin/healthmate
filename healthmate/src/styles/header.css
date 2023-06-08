@@ -26,10 +26,15 @@ header {
     max-width: 400px;
 }
 
+.home-img {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 1195px) {
     .header-content {
         display: none;
     }
+
     header {
         background-position: center;
     }

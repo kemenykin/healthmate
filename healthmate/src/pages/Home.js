@@ -18,7 +18,7 @@ const Home = () => {
             </header>
             <body>
                 <div className="home-intro">
-                        <img className="home-img" src="https://images.pexels.com/photos/7994445/pexels-photo-7994445.jpeg" alt="" style={{ width: "18.75rem" }} />
+                        <img className="home-img" src="https://images.pexels.com/photos/7994445/pexels-photo-7994445.jpeg" alt="" style={{ width: "15rem" }} />
                     <div className="intro-text">
                         <h2>Welcome to our app! </h2>
                         <p>Can you imagine that you can do your real job and spend more useful time with educating your patients instead of the unnecessary calculations and stress?</p>

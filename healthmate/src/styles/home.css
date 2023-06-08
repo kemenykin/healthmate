@@ -17,10 +17,6 @@
     align-items: center;
 }
 
-.home-intro>img {
-    border-radius: 5px;
-}
-
 @media (max-width: 660px) {
     .home-img {
         display: none;

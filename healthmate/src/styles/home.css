@@ -21,3 +21,9 @@
     width: 450px;
     border-radius: 5px;
 }
+
+@media (max-width: 915px) {
+    .home-intro > img {
+        display: none;
+    }
+}

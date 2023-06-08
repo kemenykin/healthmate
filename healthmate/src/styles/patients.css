@@ -8,6 +8,10 @@
     width: 50rem;
 }
 
+.patients-container img {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 .intro-patients {
     width: 30rem;
 }

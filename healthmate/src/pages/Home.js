@@ -5,11 +5,11 @@ import '../styles/home.css';
 
 const Home = () => {
 
-    const { theme, setTheme } = useContext(ThemeContext);
+    // const { theme, setTheme } = useContext(ThemeContext);
 
-    function handleChange(e) {
-        setTheme(e.target.value);
-    }
+    // function handleChange(e) {
+    //     setTheme(e.target.value);
+    // }
 
     return (
         <div>
@@ -18,7 +18,7 @@ const Home = () => {
             </header>
             <body>
                 <div className="home-intro">
-                    <img src="https://images.pexels.com/photos/8844386/pexels-photo-8844386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                        <img className="home-img" src="https://images.pexels.com/photos/7994445/pexels-photo-7994445.jpeg" alt="" style={{ width: "15rem" }} />
                     <div className="intro-text">
                         <h2>Welcome to our app! </h2>
                         <p>Can you imagine that you can do your real job and spend more useful time with educating your patients instead of the unnecessary calculations and stress?</p>
@@ -27,13 +27,13 @@ const Home = () => {
                         <p>...a friendly tool for clinical dietitians.</p>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <h4>Select mode: </h4>
                     <select name="theme" onChange={handleChange}>
                         <option value="light">light</option>
                         <option value="dark">dark</option>
                     </select>
-                </div>
+                </div> */}
             </body>
         </div>
     )

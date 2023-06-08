@@ -13,6 +13,14 @@
     width: 50rem;
 }
 
+.disclaimer-wrap img {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.disclaimer {
+    width: 30rem;
+}
+
 .description {
     width: 30rem;
 }

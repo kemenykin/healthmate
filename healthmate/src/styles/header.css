@@ -30,4 +30,7 @@ header {
     .header-content {
         display: none;
     }
+    header {
+        background-position: center;
+    }
 }

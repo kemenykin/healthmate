@@ -8,6 +8,27 @@ nav {
     display: none;
 }
 
+@media (max-width: 915px) {
+    .logo-img {
+        display: none;
+    }
+}
+
+@media (max-width: 710px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+    .navbar-toggle {
+        display: block;
+        align-self: flex-start;
+    }
+    .navbar > * {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 .header-container {
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
@@ -52,26 +73,5 @@ nav {
     .header-container {
         justify-content: center;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 915px) {
-    .logo-img {
-        display: none;
-    }
-}
-
-@media (max-width: 710px) {
-    .navbar {
-        flex-wrap: wrap;
-    }
-    .navbar-toggle {
-        display: block;
-        align-self: flex-start;
-    }
-    .navbar > * {
-        display: none;
-        width: 100%;
-        text-align: center;
     }
 }

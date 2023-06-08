@@ -7,21 +7,27 @@ const DailyReqs = () => {
     return (
         <div className='daily-container'>
             <div className='bmr-calc-container'>
-                <h3>1. Calculate BMR</h3>
-                <p>with the Harris & Benedict equation (1918)</p>
+                <div className='intro-box'>
+                    <h3>1. Calculate BMR</h3>
+                    <p>with the Harris & Benedict equation (1918)</p>
+                </div>
                 <br />
                 <CalculateBMR />
                 <br />
             </div>
             <div className='proteincalc-container'>
-                <h3>2. Protein requirements</h3>
-                <p>in different age and patient groups</p>
+                <div className='intro-box'>
+                    <h3>2. Protein requirements</h3>
+                    <p>in different age and patient groups</p>
+                </div>
                 <br />
                 <ProteinReqsComp />
             </div>
             <div className='fluidreqs-container'>
-                <h3>3. Fluid requirements</h3>
-                <p>can be estimated: </p>
+                <div className='intro-box'>
+                    <h3>3. Fluid requirements</h3>
+                    <p>can be estimated: </p>
+                </div>
                 <br />
                 <FluidReqs />
             </div>

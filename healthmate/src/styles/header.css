@@ -22,3 +22,9 @@ header {
 .header-text {
     margin-right: 350px;
 }
+
+@media (max-width: 710px) {
+    .header-content {
+        display: none;
+    }
+}

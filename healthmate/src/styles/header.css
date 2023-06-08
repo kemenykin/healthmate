@@ -6,14 +6,13 @@
 
 header {
     width: 100vw;
-    height: 50vh;
-    background-image: url("https://imagizer.imageshack.com/img922/5854/DovYOm.png");
+    height: 60vh;
+    background-image: url("https://images.pexels.com/photos/8844386/pexels-photo-8844386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #ffffff;
     position: relative;
-    border-bottom: 1px solid #A19582;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +22,11 @@ header {
     margin-right: 350px;
 }
 
-@media (max-width: 710px) {
+.text-div {
+    max-width: 400px;
+}
+
+@media (max-width: 1195px) {
     .header-content {
         display: none;
     }

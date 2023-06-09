@@ -1,5 +1,7 @@
 const calculateBmi = (weight, height) => {
-    return ((weight / (height * height)).toFixed(2));
+    const bmi = weight / (height * height); 
+    
+    return Number(bmi.toFixed(2));
 }
 
 export default calculateBmi;

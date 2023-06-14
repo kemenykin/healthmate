@@ -5,6 +5,7 @@ import '../styles/navigation.css';
 import { useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
 import Footer from "./Footer";
+import ScrollUpButton from "react-scroll-up-button";
 
 const Layout = () => {
 
@@ -18,6 +19,7 @@ const Layout = () => {
                 </nav>
                 <main>
                     <Outlet />
+                    <ScrollUpButton />
                 </main>
                     <Footer />
             </div>

@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { ThemeContext } from './contexts/ThemeContext';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import NotFound from './components/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/disclaimer',
         element: <Disclaimer />
+      },
+      {
+        path: '*',
+        element: <NotFound />
       }
     ]
   }

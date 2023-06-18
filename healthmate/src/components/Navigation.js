@@ -21,7 +21,7 @@ const Navigation = () => {
             <div className={`navbar ${isMenuOpen ? 'visible' : ''}`}>
                 <Link to='/bmi' className="navbar-links"> BMI calculator</Link>
                 <Link to='/daily' className="navbar-links"> Daily requirements</Link>
-                <Link to='/patients' className="navbar-links"> Patients</Link>
+                <Link to='/diets' className="navbar-links"> Diets</Link>
                 <Link to='/disclaimer' className="navbar-links"> Disclaimer</Link>
             </div>
             <div className="navbar-toggle">

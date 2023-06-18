@@ -5,7 +5,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import BmiCalc from './pages/BmiCalc';
 import DailyReqs from './pages/DailyReqs';
-import Patients from './pages/Patients';
+import Diets from './pages/Diets';
 import { useState } from 'react';
 import { ThemeContext } from './contexts/ThemeContext';
 import { ToastContainer, toast } from 'react-toastify';
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         element: <DailyReqs />
       },
       {
-        path: '/patients',
-        element: <Patients />
+        path: '/diets',
+        element: <Diets />
       },
       {
         path: '/disclaimer',

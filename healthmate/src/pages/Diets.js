@@ -8,9 +8,9 @@ const Diets = () => {
                     <img src="https://images.pexels.com/photos/7261097/pexels-photo-7261097.jpeg" alt="" />
                 </div>
                 <div className="description">
-                    <h3>Soon you can see your patient's list here. List it, add new patient, maybe delete and after that, see the updated list.</h3>
-                    <p>Work in progress, under construction.</p>
-                    <p>According to our plans, you can create individual profiles, patient's list. You can track their therapies/recommendations, and take notes in connection with the dietotherapy.</p>
+                    <h3>Dietetic Treatment System</h3>
+                    <p>In this section, you have a handy cheatsheet for the diets of every main diseases.</p>
+                    <p>These main descriptions give you help with documentation, where you have to add the instructions of the diethotherapies.</p>
                 <br />
                 </div>
             </div>

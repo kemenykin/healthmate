@@ -17,6 +17,22 @@
     align-items: center;
 }
 
+.product-card {
+    display: flex;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.warning-msg {
+    color: brown;
+    padding: 1.5em;
+}
+
+.product-txt {
+    padding: 1.3rem;
+    max-width: 12.5rem;
+}
+
 @media (max-width: 660px) {
     .home-img {
         display: none;

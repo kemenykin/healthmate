@@ -35,6 +35,11 @@
     padding: 0.5rem;
     font-size: larger;
 }
+.old {
+    font-size: smaller;
+    text-decoration: line-through;
+    font-weight: 500;
+}
 
 .product-txt {
     padding: 1.3rem;

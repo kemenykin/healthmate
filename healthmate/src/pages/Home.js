@@ -32,9 +32,11 @@ const Home = () => {
                 <div className="product-card">
                         <img src="https://images.pexels.com/photos/7994445/pexels-photo-7994445.jpeg" alt="" style={{ width: "14rem" }} />
                     <div className="product-txt">
-                        <p>HealthMate PRO</p>
+                        <p className="marketing-txt">HEALTHMATE PRO</p>
                         <h3>Join the PRO community!</h3>
-                        <p>Maximilize your potential and kick your days with our handy stuff in your pocket!</p>
+                        <p className="marketing-txt">Maximilize your potential and kick your days with our handy stuff in your pocket!</p>
+                        <p className="price">$19.99</p>
+                        <button>Add to cart</button>
                     </div>
                 </div>
                 {/* <div>

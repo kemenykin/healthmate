@@ -30,7 +30,7 @@ const Home = () => {
                     Don't miss out our special offer:
                 </div>
                 <div className="product-card">
-                        <img src="https://images.pexels.com/photos/7994445/pexels-photo-7994445.jpeg" alt="" style={{ width: "14rem" }} />
+                    <img src="https://images.pexels.com/photos/7994445/pexels-photo-7994445.jpeg" alt="" style={{ width: "14rem" }} />
                     <div className="product-txt">
                         <p className="marketing-txt">HEALTHMATE PRO</p>
                         <h3>Join the PRO community!</h3>

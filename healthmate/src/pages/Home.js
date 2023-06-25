@@ -18,13 +18,12 @@ const Home = () => {
             </header>
             <body>
                 <div className="home-intro">
-                    <img className="home-img" src="https://images.pexels.com/photos/7994445/pexels-photo-7994445.jpeg" alt="" style={{ width: "11rem" }} />
                     <div className="intro-text">
                         <h2>Welcome to our app! </h2>
                         <p>Can you imagine that you can do your real job and spend more useful time with educating your patients instead of the unnecessary calculations and stress?</p>
                         <p>We brought the solution: everything you need. In one place. In your pocket.</p>
                         <h3>This is HealthMate.</h3>
-                        <p>...a friendly tool for clinical dietitians.</p>
+                        <p>A friendly tool for clinical dietitians.</p>
                     </div>
                 </div>
                 <div className="warning-msg">

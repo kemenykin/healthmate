@@ -20,9 +20,17 @@
 
 .product-card {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem;
     align-items: center;
+    background-color: #F1F0EE;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.product-card > img {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .warning-msg {
@@ -45,11 +53,15 @@
     padding: 1.3rem;
     max-width: 12.5rem;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .marketing-txt {
     font-size: smaller;
+}
+
+button {
+    text-align: center;
 }
 
 @media (max-width: 660px) {

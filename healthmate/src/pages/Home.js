@@ -35,6 +35,7 @@ const Home = () => {
                         <p className="marketing-txt">HEALTHMATE PRO</p>
                         <h3>Join the PRO community!</h3>
                         <p className="marketing-txt">Maximilize your potential and kick your days with our handy stuff in your pocket!</p>
+                        <p className="price old">$25.99</p>
                         <p className="price">$19.99</p>
                         <button>Add to cart</button>
                     </div>

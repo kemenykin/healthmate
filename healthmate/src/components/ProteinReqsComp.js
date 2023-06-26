@@ -53,7 +53,7 @@ const ProteinReqsComp = () => {
                     <form onSubmit={handleOnSubmit}>
                         <label htmlFor="weight">Weight</label>
                         <input type="text" id="weight" name="weight" placeholder="in kilogramms" onChange={handleWeightChange} />
-                        <button type='submit'>Calculate</button>
+                        {/* <button type='submit'>Calculate</button> */}
                     </form>
                 </div>
             </div>

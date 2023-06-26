@@ -34,8 +34,9 @@
 }
 
 .warning-msg {
-    color: brown;
-    padding: 1.5em;
+    color: rgb(213, 8, 56);
+    padding: 0.5em;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5)
 }
 
 .price {

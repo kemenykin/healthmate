@@ -40,9 +40,11 @@ const BmiCalcComp = () => {
                 <div className='bmi-calculator'>
                     <form onSubmit={calculate}>
                         <label htmlFor="weight">Weight</label>
-                        <input type="text" value={weight} onChange={handleWeightChange} id="weight" name="weight" placeholder="in kilogramms" />
+                        <input type="text" value={weight} onChange={handleWeightChange} id="weight" name="weight" placeholder="in kilogramms" required/>
+                        <span></span>
                         <label htmlFor="height">Height</label>
-                        <input type="text" value={height} onChange={handleHeightChange} id="height" name="height" placeholder="in metres" />
+                        <input type="text" value={height} onChange={handleHeightChange} id="height" name="height" placeholder="in metres" required/>
+                        <span></span>
                         <button type='submit'>Calculate</button>
                     </form>
                 </div>

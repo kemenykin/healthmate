@@ -40,6 +40,30 @@ body {
   margin-bottom: 10px;
 }
 
+input + span {
+  position: relative;
+}
+
+input + span::before {
+  position: absolute;
+  right: -17px;
+  top: -38px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
+
 .bmi-calculator button {
   padding: 10px 20px;
   background-color: #C09984;

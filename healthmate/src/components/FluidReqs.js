@@ -5,7 +5,7 @@ const FluidReqs = () => {
 
     const [weight, setWeight] = useState('');
     const [fluid, setFluid] = useState(35);
-    const [age, setAge] = useState("adults");
+    // const [age, setAge] = useState("adults");
     const [estimatedFluid, setEstimatedFluid] = useState(0);
 
     function handleWeightChange(e) {
@@ -14,11 +14,11 @@ const FluidReqs = () => {
 
     function calculateFluidNeed(e) {
         e.preventDefault();
-        if (age === "adults") {
-            setFluid(35);
-        } else {
-            setFluid(30);
-        }
+        // if (age === "adults") {
+        //     setFluid(35);
+        // } else {
+        //     setFluid(30);
+        // }
         setEstimatedFluid(fluidService.estimateFluid(weight, fluid));
     }
 
